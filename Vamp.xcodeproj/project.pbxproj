@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FBFDC2BA1BCBD81F00E6B341 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBFDC2B91BCBD81F00E6B341 /* AppDelegate.swift */; };
+		FBFDC2BC1BCBD81F00E6B341 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBFDC2BB1BCBD81F00E6B341 /* ViewController.swift */; };
+		FBFDC2BF1BCBD81F00E6B341 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBFDC2BD1BCBD81F00E6B341 /* Main.storyboard */; };
+		FBFDC2C11BCBD81F00E6B341 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FBFDC2C01BCBD81F00E6B341 /* Assets.xcassets */; };
+		FBFDC2C41BCBD81F00E6B341 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBFDC2C21BCBD81F00E6B341 /* LaunchScreen.storyboard */; };
+		FBFDC2CF1BCBD82000E6B341 /* VampTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBFDC2CE1BCBD82000E6B341 /* VampTests.swift */; };
+		FBFDC2DA1BCBD82000E6B341 /* VampUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBFDC2D91BCBD82000E6B341 /* VampUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FBFDC2CB1BCBD82000E6B341 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FBFDC2AE1BCBD81F00E6B341 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FBFDC2B51BCBD81F00E6B341;
+			remoteInfo = Vamp;
+		};
+		FBFDC2D61BCBD82000E6B341 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FBFDC2AE1BCBD81F00E6B341 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FBFDC2B51BCBD81F00E6B341;
+			remoteInfo = Vamp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FBFDC2B61BCBD81F00E6B341 /* Vamp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Vamp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBFDC2B91BCBD81F00E6B341 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FBFDC2BB1BCBD81F00E6B341 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FBFDC2BE1BCBD81F00E6B341 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FBFDC2C01BCBD81F00E6B341 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FBFDC2C31BCBD81F00E6B341 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FBFDC2C51BCBD81F00E6B341 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FBFDC2CA1BCBD82000E6B341 /* VampTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VampTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBFDC2CE1BCBD82000E6B341 /* VampTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VampTests.swift; sourceTree = "<group>"; };
+		FBFDC2D01BCBD82000E6B341 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FBFDC2D51BCBD82000E6B341 /* VampUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VampUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBFDC2D91BCBD82000E6B341 /* VampUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VampUITests.swift; sourceTree = "<group>"; };
+		FBFDC2DB1BCBD82000E6B341 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FBFDC2B31BCBD81F00E6B341 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBFDC2C71BCBD81F00E6B341 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBFDC2D21BCBD82000E6B341 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FBFDC2AD1BCBD81F00E6B341 = {
+			isa = PBXGroup;
+			children = (
+				FBFDC2B81BCBD81F00E6B341 /* Vamp */,
+				FBFDC2CD1BCBD82000E6B341 /* VampTests */,
+				FBFDC2D81BCBD82000E6B341 /* VampUITests */,
+				FBFDC2B71BCBD81F00E6B341 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FBFDC2B71BCBD81F00E6B341 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FBFDC2B61BCBD81F00E6B341 /* Vamp.app */,
+				FBFDC2CA1BCBD82000E6B341 /* VampTests.xctest */,
+				FBFDC2D51BCBD82000E6B341 /* VampUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FBFDC2B81BCBD81F00E6B341 /* Vamp */ = {
+			isa = PBXGroup;
+			children = (
+				FBFDC2B91BCBD81F00E6B341 /* AppDelegate.swift */,
+				FBFDC2BB1BCBD81F00E6B341 /* ViewController.swift */,
+				FBFDC2BD1BCBD81F00E6B341 /* Main.storyboard */,
+				FBFDC2C01BCBD81F00E6B341 /* Assets.xcassets */,
+				FBFDC2C21BCBD81F00E6B341 /* LaunchScreen.storyboard */,
+				FBFDC2C51BCBD81F00E6B341 /* Info.plist */,
+			);
+			path = Vamp;
+			sourceTree = "<group>";
+		};
+		FBFDC2CD1BCBD82000E6B341 /* VampTests */ = {
+			isa = PBXGroup;
+			children = (
+				FBFDC2CE1BCBD82000E6B341 /* VampTests.swift */,
+				FBFDC2D01BCBD82000E6B341 /* Info.plist */,
+			);
+			path = VampTests;
+			sourceTree = "<group>";
+		};
+		FBFDC2D81BCBD82000E6B341 /* VampUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FBFDC2D91BCBD82000E6B341 /* VampUITests.swift */,
+				FBFDC2DB1BCBD82000E6B341 /* Info.plist */,
+			);
+			path = VampUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FBFDC2B51BCBD81F00E6B341 /* Vamp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FBFDC2DE1BCBD82000E6B341 /* Build configuration list for PBXNativeTarget "Vamp" */;
+			buildPhases = (
+				FBFDC2B21BCBD81F00E6B341 /* Sources */,
+				FBFDC2B31BCBD81F00E6B341 /* Frameworks */,
+				FBFDC2B41BCBD81F00E6B341 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Vamp;
+			productName = Vamp;
+			productReference = FBFDC2B61BCBD81F00E6B341 /* Vamp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FBFDC2C91BCBD81F00E6B341 /* VampTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FBFDC2E11BCBD82000E6B341 /* Build configuration list for PBXNativeTarget "VampTests" */;
+			buildPhases = (
+				FBFDC2C61BCBD81F00E6B341 /* Sources */,
+				FBFDC2C71BCBD81F00E6B341 /* Frameworks */,
+				FBFDC2C81BCBD81F00E6B341 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FBFDC2CC1BCBD82000E6B341 /* PBXTargetDependency */,
+			);
+			name = VampTests;
+			productName = VampTests;
+			productReference = FBFDC2CA1BCBD82000E6B341 /* VampTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FBFDC2D41BCBD82000E6B341 /* VampUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FBFDC2E41BCBD82000E6B341 /* Build configuration list for PBXNativeTarget "VampUITests" */;
+			buildPhases = (
+				FBFDC2D11BCBD82000E6B341 /* Sources */,
+				FBFDC2D21BCBD82000E6B341 /* Frameworks */,
+				FBFDC2D31BCBD82000E6B341 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FBFDC2D71BCBD82000E6B341 /* PBXTargetDependency */,
+			);
+			name = VampUITests;
+			productName = VampUITests;
+			productReference = FBFDC2D51BCBD82000E6B341 /* VampUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FBFDC2AE1BCBD81F00E6B341 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Антон Рыскалев";
+				TargetAttributes = {
+					FBFDC2B51BCBD81F00E6B341 = {
+						CreatedOnToolsVersion = 7.0.1;
+						DevelopmentTeam = WXQWHGM435;
+					};
+					FBFDC2C91BCBD81F00E6B341 = {
+						CreatedOnToolsVersion = 7.0.1;
+						DevelopmentTeam = WXQWHGM435;
+						TestTargetID = FBFDC2B51BCBD81F00E6B341;
+					};
+					FBFDC2D41BCBD82000E6B341 = {
+						CreatedOnToolsVersion = 7.0.1;
+						DevelopmentTeam = WXQWHGM435;
+						TestTargetID = FBFDC2B51BCBD81F00E6B341;
+					};
+				};
+			};
+			buildConfigurationList = FBFDC2B11BCBD81F00E6B341 /* Build configuration list for PBXProject "Vamp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FBFDC2AD1BCBD81F00E6B341;
+			productRefGroup = FBFDC2B71BCBD81F00E6B341 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FBFDC2B51BCBD81F00E6B341 /* Vamp */,
+				FBFDC2C91BCBD81F00E6B341 /* VampTests */,
+				FBFDC2D41BCBD82000E6B341 /* VampUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FBFDC2B41BCBD81F00E6B341 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBFDC2C41BCBD81F00E6B341 /* LaunchScreen.storyboard in Resources */,
+				FBFDC2C11BCBD81F00E6B341 /* Assets.xcassets in Resources */,
+				FBFDC2BF1BCBD81F00E6B341 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBFDC2C81BCBD81F00E6B341 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBFDC2D31BCBD82000E6B341 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FBFDC2B21BCBD81F00E6B341 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBFDC2BC1BCBD81F00E6B341 /* ViewController.swift in Sources */,
+				FBFDC2BA1BCBD81F00E6B341 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBFDC2C61BCBD81F00E6B341 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBFDC2CF1BCBD82000E6B341 /* VampTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBFDC2D11BCBD82000E6B341 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBFDC2DA1BCBD82000E6B341 /* VampUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FBFDC2CC1BCBD82000E6B341 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FBFDC2B51BCBD81F00E6B341 /* Vamp */;
+			targetProxy = FBFDC2CB1BCBD82000E6B341 /* PBXContainerItemProxy */;
+		};
+		FBFDC2D71BCBD82000E6B341 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FBFDC2B51BCBD81F00E6B341 /* Vamp */;
+			targetProxy = FBFDC2D61BCBD82000E6B341 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FBFDC2BD1BCBD81F00E6B341 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FBFDC2BE1BCBD81F00E6B341 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FBFDC2C21BCBD81F00E6B341 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FBFDC2C31BCBD81F00E6B341 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FBFDC2DC1BCBD82000E6B341 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FBFDC2DD1BCBD82000E6B341 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FBFDC2DF1BCBD82000E6B341 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Vamp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = TonyB.Vamp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FBFDC2E01BCBD82000E6B341 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Vamp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = TonyB.Vamp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FBFDC2E21BCBD82000E6B341 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = VampTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = TonyB.VampTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Vamp.app/Vamp";
+			};
+			name = Debug;
+		};
+		FBFDC2E31BCBD82000E6B341 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = VampTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = TonyB.VampTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Vamp.app/Vamp";
+			};
+			name = Release;
+		};
+		FBFDC2E51BCBD82000E6B341 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = VampUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = TonyB.VampUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Vamp;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		FBFDC2E61BCBD82000E6B341 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = VampUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = TonyB.VampUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Vamp;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FBFDC2B11BCBD81F00E6B341 /* Build configuration list for PBXProject "Vamp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBFDC2DC1BCBD82000E6B341 /* Debug */,
+				FBFDC2DD1BCBD82000E6B341 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FBFDC2DE1BCBD82000E6B341 /* Build configuration list for PBXNativeTarget "Vamp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBFDC2DF1BCBD82000E6B341 /* Debug */,
+				FBFDC2E01BCBD82000E6B341 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FBFDC2E11BCBD82000E6B341 /* Build configuration list for PBXNativeTarget "VampTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBFDC2E21BCBD82000E6B341 /* Debug */,
+				FBFDC2E31BCBD82000E6B341 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FBFDC2E41BCBD82000E6B341 /* Build configuration list for PBXNativeTarget "VampUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBFDC2E51BCBD82000E6B341 /* Debug */,
+				FBFDC2E61BCBD82000E6B341 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FBFDC2AE1BCBD81F00E6B341 /* Project object */;
+}
