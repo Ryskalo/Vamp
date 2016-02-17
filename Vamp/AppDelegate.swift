@@ -7,6 +7,9 @@
 //
 
 import UIKit
+import Parse
+import Bolts
+import Appodeal
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -15,7 +18,29 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
-        // Override point for customization after application launch.
+        
+        //VKSdk.processOpenURL(openURL, fromApplication: sourceApplication)
+        
+        
+        Parse.enableLocalDatastore()
+        
+        // Initialize Parse.
+        Parse.setApplicationId("gdewZZ0CCEMnsp7KpItTxgB6XFBMzVEoYPjCSBCy",
+            clientKey: "2nc3IGeizKFPnRVh1EtcJJGHPUn25obTNqWLuUKk")
+        
+        // [Optional] Track statistics around application opens.
+        PFAnalytics.trackAppOpenedWithLaunchOptions(launchOptions)
+        
+        //let adTypes: AppodealAdType = [.Video];
+        //Appodeal.initializeWithApiKey("1c6f7c80ad103f6fecfb66685a175d87a4118712f070bd11")
+        
+        return true
+    }
+    
+    func application(application: UIApplication, openURL:NSURL, sourceApplication:String?, annotation:AnyObject?,didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
+        
+            VKSdk.processOpenURL(openURL, fromApplication: sourceApplication)
+            
         return true
     }
 
